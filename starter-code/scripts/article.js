@@ -1,10 +1,16 @@
 'use strict';
 
 var articles = [];
-
+// estimated time: 10-15min
 function Article (rawDataObj) {
   // TODO: Use the JS object passed in to complete this constructor function:
   // Save ALL the properties of `rawDataObj` into `this`
+  this.title = title,
+  this.category = category,
+  this.author = author,
+  this.authorUrl = authorUrl,
+  this.publishedOn = publishedOn,
+  this.body = body;
 }
 
 Article.prototype.toHtml = function() {
