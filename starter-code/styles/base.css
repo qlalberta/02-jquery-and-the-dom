@@ -1,5 +1,8 @@
+/*Styled the img*/
 img {
   max-width: 100%;
+  display: block;
+  padding: 1%;
 }
 
 body {
