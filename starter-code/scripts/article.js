@@ -37,9 +37,9 @@ Article.prototype.toHtml = function() {
   // Estimated time: 30 min, actual time 50 min:
 
   $newArticle.find('a').text(this.author);
-  $newArticle.find('a').text(this.url).attr('href', this.authorUrl);
+  $newArticle.find('a').attr('href', this.authorUrl);
   $newArticle.find('h1').text(this.title);
-  $newArticle.find('p').html(this.body);
+  $newArticle.find('.article-body').html(this.body);
   $newArticle.find('time').text(this.publishedOn);
 
 
